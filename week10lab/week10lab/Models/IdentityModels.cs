@@ -29,5 +29,6 @@ namespace week10lab.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Pins> Pins { get; set; }
     }
 }
